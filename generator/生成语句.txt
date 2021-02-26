@@ -1,0 +1,2 @@
+java -jar D:\Users\Wangxl\IDEAStudyWorkspace\permission\generator\mybatis-generator-core-1.3.2.jar -configfile D:\Users\Wangxl\IDEAStudyWorkspace\permission\gen
+erator\generator.xml -overwrite
