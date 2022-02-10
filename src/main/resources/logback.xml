@@ -6,7 +6,7 @@
         </encoder>
     </appender>
     <!--根据时间进行压缩日志-->
-   <!-- <appender name="permission" class="ch.qos.logback.core.rolling.RollingFileAppender">
+   <appender name="permission" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${catalina.home}/logs/permission.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <FileNamePattern>${catalina.home}/logs/permission.%d{yyyy-MM-dd}.log.gz</FileNamePattern>
@@ -17,12 +17,12 @@
         </rollingPolicy>
 
     </appender>
-    <logger name="xxx" level="INFO">
+    <logger name="permission" level="INFO">
         <appender-ref ref="permission">
 
         </appender-ref>
 
-    </logger>-->
+    </logger>
     <root level="INFO">
         <appender-ref ref="STDOUT">
 
