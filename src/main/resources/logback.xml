@@ -15,7 +15,6 @@
             </layout>
 
         </rollingPolicy>
-
     </appender>
     <logger name="permission" level="INFO">
         <appender-ref ref="permission">
