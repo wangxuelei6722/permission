@@ -13,18 +13,14 @@
             <layout class="ch.qos.logback.classic.PatternLayout">
                 <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
             </layout>
-
         </rollingPolicy>
     </appender>
     <logger name="permission" level="INFO">
         <appender-ref ref="permission">
-
         </appender-ref>
-
     </logger>
     <root level="INFO">
         <appender-ref ref="STDOUT">
-
         </appender-ref>
     </root>
 </configuration>
