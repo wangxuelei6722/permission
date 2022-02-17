@@ -51,7 +51,7 @@ public class BeanValidator {
 
     public static Map<String,String> validateObject(Object first,Object... objects){
         if (objects != null && objects.length > 0){
-            validateList(Lists.asList(first,objects));
+            return validateList(Lists.asList(first,objects));
         }else{
             return validate(first,new Class[0]);
         }
